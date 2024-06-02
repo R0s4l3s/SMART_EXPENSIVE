@@ -16,7 +16,7 @@ android:text="Smart Expense"
 android:textColor="#9530C5"
 android:textSize="24sp"
 android:layout_centerHorizontal="true"
-android:layout_marginTop="20dp"
+android:layout_marginTop="80dp"
 android:fontFamily="@font/nicomoji"/>
 
     <!-- Start Section Title -->
@@ -29,7 +29,7 @@ android:textColor="@android:color/white"
 android:textSize="18sp"
 android:layout_below="@id/title"
 android:layout_centerHorizontal="true"
-android:layout_marginTop="70dp"
+android:layout_marginTop="45dp"
 android:fontFamily="@font/nicomoji"/>
 
     <!-- Instruction Text -->
@@ -42,7 +42,7 @@ android:textColor="@android:color/white"
 android:textSize="12sp"
 android:layout_below="@id/startSectionTitle"
 android:layout_centerHorizontal="true"
-android:layout_marginTop="40dp"
+android:layout_marginTop="20dp"
 android:fontFamily="@font/nicomoji"/>
 
     <!-- Nickname EditText -->
@@ -52,7 +52,7 @@ android:layout_width="match_parent"
 android:layout_height="wrap_content"
 android:hint="Nickname"
     android:gravity="center"
-android:background="#D4C8DD"
+android:background="@drawable/edittext_border"
 android:padding="10dp"
 android:layout_below="@id/instructionText"
 android:layout_marginTop="20dp"
@@ -70,7 +70,7 @@ android:layout_height="wrap_content"
 android:hint="Password"
 android:inputType="textPassword"
     android:gravity="center"
-android:background="#D4C8DD"
+android:background="@drawable/edittext_border"
 android:padding="10dp"
 android:layout_below="@id/nickname"
 android:layout_marginTop="10dp"

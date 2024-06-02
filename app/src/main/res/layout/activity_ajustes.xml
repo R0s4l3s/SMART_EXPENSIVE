@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/backgraund"
+    tools:context=".Sistema_P">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Expense"
+        android:textColor="#9530C5"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/nicomoji"/>
+
+    <Button
+        android:id="@+id/Terminos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminos y condiciones"
+        android:gravity="center"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/nicomoji"
+        android:textColor="#7F36AB"
+        android:backgroundTint="#190923"/>
+    <Button
+        android:id="@+id/Color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color"
+        android:gravity="center"
+        android:layout_below="@id/Terminos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/nicomoji"
+        android:textColor="#7F36AB"
+        android:backgroundTint="#190923"/>
+    <Button
+        android:id="@+id/Aserca_APP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aserca de la APP"
+        android:gravity="center"
+        android:layout_below="@id/Color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/nicomoji"
+        android:textColor="#7F36AB"
+        android:backgroundTint="#190923"/>
+
+    <Button
+        android:id="@+id/Cerrar_S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Aserca_APP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#190923"
+        android:fontFamily="@font/nicomoji"
+        android:gravity="center"
+        android:text="Cerrar Seccion"
+        android:textColor="#A60B0B" />
+</RelativeLayout>

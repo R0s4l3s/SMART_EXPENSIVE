@@ -13,13 +13,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Smart Expense"
-        android:textColor="@android:color/holo_purple"
+        android:textColor="#9530C5"
         android:textSize="24sp"
         android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="100dp"
         android:fontFamily="@font/nicomoji"/>
 
+    <TextView
+        android:id="@+id/AliasT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombres"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/nicomoji"/>
 
     <!-- Nombres EditText -->
     <EditText
@@ -27,45 +38,67 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nickname"
-        android:background="#D4C8DD"
+        android:background="@drawable/edittext_border"
         android:padding="10dp"
         android:gravity="center"
-        android:layout_below="@id/title"
-        android:layout_marginTop="20dp"
+        android:layout_below="@id/AliasT"
+        android:layout_marginTop="5dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:textColor="#828282"
         android:textColorHint="#828282"
         android:fontFamily="@font/nicomoji"/>
 
+    <TextView
+        android:id="@+id/ContraseñaT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@id/Alias"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nicomoji"/>
     <!-- Apellidos EditText -->
     <EditText
         android:id="@+id/Contraseña"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:background="#D4C8DD"
+        android:background="@drawable/edittext_border"
         android:padding="10dp"
         android:gravity="center"
-        android:layout_below="@id/Alias"
-        android:layout_marginTop="20dp"
+        android:layout_below="@id/ContraseñaT"
+        android:layout_marginTop="5dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:textColor="#828282"
         android:textColorHint="#828282"
         android:fontFamily="@font/nicomoji"/>
 
+    <TextView
+        android:id="@+id/Contraseña2T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repita su contraseña"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@id/Contraseña"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nicomoji"/>
     <!-- Edad EditText -->
     <EditText
         android:id="@+id/Contraseña2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:background="#D4C8DD"
+        android:background="@drawable/edittext_border"
         android:padding="10dp"
         android:gravity="center"
-        android:layout_below="@id/Contraseña"
-        android:layout_marginTop="20dp"
+        android:layout_below="@id/Contraseña2T"
+        android:layout_marginTop="5dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:textColor="#828282"

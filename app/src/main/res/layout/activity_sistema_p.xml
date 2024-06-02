@@ -1,10 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/backgraund"
     tools:context=".Sistema_P">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginRight="330dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/app"
+            >
+        </ImageView>
+        <ImageButton
+            android:id="@+id/bottonU"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="25dp"
+            android:background="@mipmap/ic_usuario">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/bottonA"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/bottonU"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/app">
+
+        </ImageButton>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/GastoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese Gasto"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/nicomoji"
+        android:textColor="#7F36AB"
+        android:backgroundTint="#190923"/>
+
+    <Button
+        android:id="@+id/IngresoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese Aadicional"
+        android:gravity="center"
+        android:layout_below="@id/GastoC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/nicomoji"
+        android:textColor="#7F36AB"
+        android:backgroundTint="#190923"/>
+
+
+    <Button
+        android:id="@+id/estadoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado"
+        android:gravity="center"
+        android:layout_below="@id/IngresoC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/nicomoji"
+        android:textColor="#7F36AB"
+        android:backgroundTint="#190923"/>
+</RelativeLayout>

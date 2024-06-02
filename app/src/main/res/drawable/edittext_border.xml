@@ -1,13 +1,13 @@
 <!-- res/drawable/edittext_border.xml -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@android:color/transparent" />
+    <solid android:color="#D4C8DD" />
     <stroke
         android:width="2dp"
-        android:color="@android:color/darker_gray" />
-    <corners android:radius="4dp" />
+        android:color="#000000" />
+    <corners android:radius="10dp" />
     <padding
-        android:left="10dp"
-        android:top="10dp"
-        android:right="10dp"
-        android:bottom="10dp" />
+        android:left="100dp"
+        android:top="100dp"
+        android:right="100dp"
+        android:bottom="100dp" />
 </shape>
