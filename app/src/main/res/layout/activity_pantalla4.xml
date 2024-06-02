@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/backgraund"
+    tools:context=".Pantalla4">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Expense"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nicomoji"/>
+
+
+    <!-- Nombres EditText -->
+    <EditText
+        android:id="@+id/Alias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nickname"
+        android:background="#D4C8DD"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_below="@id/title"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#828282"
+        android:textColorHint="#828282"
+        android:fontFamily="@font/nicomoji"/>
+
+    <!-- Apellidos EditText -->
+    <EditText
+        android:id="@+id/Contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="#D4C8DD"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_below="@id/Alias"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#828282"
+        android:textColorHint="#828282"
+        android:fontFamily="@font/nicomoji"/>
+
+    <!-- Edad EditText -->
+    <EditText
+        android:id="@+id/Contraseña2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="#D4C8DD"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_below="@id/Contraseña"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#828282"
+        android:textColorHint="#828282"
+        android:fontFamily="@font/nicomoji"/>
+
+
+
+    <!-- Siguiente Button -->
+    <Button
+        android:id="@+id/siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:gravity="center"
+        android:layout_below="@id/Contraseña2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nicomoji"
+        android:textColor="#7F36AB"
+        android:backgroundTint="#190923"/>
+</RelativeLayout>
