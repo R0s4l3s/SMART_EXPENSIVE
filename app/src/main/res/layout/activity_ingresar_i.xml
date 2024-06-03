@@ -6,4 +6,5 @@
     android:id="@+id/main"
     android:background="@drawable/backgraund"
     tools:context=".IngresarI">
+
 </RelativeLayout>

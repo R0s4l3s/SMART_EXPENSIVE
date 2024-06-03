@@ -6,4 +6,144 @@
     android:id="@+id/main"
     android:background="@drawable/backgraund"
     tools:context=".IngresarG">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Gasto"
+        android:textColor="#9530C5"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/nicomoji"/>
+
+    <TextView
+        android:id="@+id/MencioneGT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mencione Gasto"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/nicomoji"/>
+
+    <!-- Nombres EditText -->
+    <EditText
+        android:id="@+id/IngreseG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detalle del Gasto"
+        android:background="@drawable/edittext_border"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_below="@id/MencioneGT"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#828282"
+        android:textColorHint="#828282"
+        android:fontFamily="@font/nicomoji"/>
+
+    <TextView
+        android:id="@+id/CantidadGT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indique la cantidad del Gasto"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@id/IngreseG"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nicomoji"/>
+    <!-- Apellidos EditText -->
+    <EditText
+        android:id="@+id/CantidadG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="S/.-$-€"
+        android:background="@drawable/edittext_border"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_below="@id/CantidadGT"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#828282"
+        android:textColorHint="#828282"
+        android:fontFamily="@font/nicomoji"/>
+
+    <TextView
+        android:id="@+id/IngresoG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Ingreso"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@id/CantidadG"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nicomoji"/>
+    <!-- Apellidos EditText -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IngresoG"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/dolarB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$"
+            android:gravity="center"
+            android:layout_below="@id/IngresoG"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/nicomoji"
+            android:textColor="#7F36AB"
+            android:backgroundTint="#190923"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/euroB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="€"
+            android:gravity="center"
+            android:layout_below="@id/IngresoG"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/nicomoji"
+            android:textColor="#7F36AB"
+            android:backgroundTint="#190923"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/solesB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S/."
+            android:gravity="center"
+            android:layout_below="@id/IngresoG"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/nicomoji"
+            android:textColor="#7F36AB"
+            android:backgroundTint="#190923"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IngresoG"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
 </RelativeLayout>
