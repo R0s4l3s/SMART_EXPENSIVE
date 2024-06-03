@@ -29,5 +29,21 @@ class Sistema_P : AppCompatActivity() {
             val intent: Intent = Intent(this, Ajustes::class.java)
             startActivity(intent)
         }
+        val btnG: Button = findViewById(R.id.GastoB)
+        btnG.setOnClickListener {
+            val intent: Intent = Intent(this, IngresarG::class.java)
+            startActivity(intent)
+        }
+        val btnI: Button = findViewById(R.id.IngresoI)
+        btnI.setOnClickListener {
+            val intent: Intent = Intent(this, IngresarI::class.java)
+            startActivity(intent)
+        }
+        val btnCu: Button = findViewById(R.id.estadoC)
+        btnCu.setOnClickListener {
+            val intent: Intent = Intent(this, EstadoC::class.java)
+            startActivity(intent)
+        }
+
     }
 }

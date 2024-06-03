@@ -16,7 +16,7 @@
             android:layout_height="40dp"
             android:layout_marginTop="70dp"
             android:layout_marginLeft="25dp"
-            android:background="@drawable/app"
+            android:background="@drawable/ic_app"
             >
         </ImageView>
         <ImageButton
@@ -35,13 +35,13 @@
             android:layout_below="@id/bottonU"
             android:layout_marginTop="8dp"
             android:layout_marginLeft="25dp"
-            android:background="@drawable/app">
+            android:background="@drawable/ic_ajustes">
 
         </ImageButton>
     </LinearLayout>
 
     <Button
-        android:id="@+id/GastoC"
+        android:id="@+id/GastoB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingrese Gasto"
@@ -53,12 +53,12 @@
         android:backgroundTint="#190923"/>
 
     <Button
-        android:id="@+id/IngresoC"
+        android:id="@+id/IngresoI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingrese Aadicional"
+        android:text="Ingrese Adicional"
         android:gravity="center"
-        android:layout_below="@id/GastoC"
+        android:layout_below="@id/GastoB"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:fontFamily="@font/nicomoji"
@@ -72,7 +72,7 @@
         android:layout_height="wrap_content"
         android:text="Estado"
         android:gravity="center"
-        android:layout_below="@id/IngresoC"
+        android:layout_below="@id/IngresoI"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:fontFamily="@font/nicomoji"
