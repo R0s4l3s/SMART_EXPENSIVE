@@ -6,5 +6,175 @@
     android:id="@+id/main"
     android:background="@drawable/backgraund"
     tools:context=".IngresarI">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Gasto"
+        android:textColor="#9530C5"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/nicomoji"/>
 
+    <TextView
+        android:id="@+id/MencioneIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mencione Ingreso"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/nicomoji"/>
+
+    <!-- Nombres EditText -->
+    <EditText
+        android:id="@+id/IngreseI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detalle del Ingreso"
+        android:background="@drawable/edittext_border"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_below="@id/MencioneIT"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#828282"
+        android:textColorHint="#828282"
+        android:fontFamily="@font/nicomoji"/>
+
+    <TextView
+        android:id="@+id/CantidadGT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indique la cantidad del Ingreso"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@id/IngreseI"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nicomoji"/>
+    <!-- Apellidos EditText -->
+    <EditText
+        android:id="@+id/CantidadI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detalles del Ingreso"
+        android:background="@drawable/edittext_border"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_below="@id/CantidadGT"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#828282"
+        android:textColorHint="#828282"
+        android:fontFamily="@font/nicomoji"/>
+
+    <TextView
+        android:id="@+id/IngresoI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Ingreso"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@id/CantidadI"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nicomoji"/>
+    <!-- Apellidos EditText -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IngresoI"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/cuadroD">
+        <Button
+            android:id="@+id/dolarB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$"
+            android:gravity="center"
+            android:layout_below="@id/IngresoG"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/nicomoji"
+            android:textColor="#7F36AB"
+            android:backgroundTint="#190923"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/euroB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="€"
+            android:gravity="center"
+            android:layout_below="@id/IngresoG"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/nicomoji"
+            android:textColor="#7F36AB"
+            android:backgroundTint="#190923"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/solesB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S/."
+            android:gravity="center"
+            android:layout_below="@id/IngresoG"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/nicomoji"
+            android:textColor="#7F36AB"
+            android:backgroundTint="#190923"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/siguienteBI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:gravity="center"
+        android:layout_below="@id/cuadroD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/nicomoji"
+        android:textColor="#7F36AB"
+        android:backgroundTint="#190923"
+        android:layout_marginRight="20dp"/>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginRight="330dp"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/bottonU"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="25dp"
+            android:background="@mipmap/ic_usuario">
+
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/bottonA"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/bottonU"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/ic_ajustes">
+
+        </ImageButton>
+    </LinearLayout>
 </RelativeLayout>

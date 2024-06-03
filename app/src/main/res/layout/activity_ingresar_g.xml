@@ -79,7 +79,7 @@
         android:id="@+id/IngresoG"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tipo de Ingreso"
+        android:text="Tipo de Gasto"
         android:textColor="@android:color/white"
         android:textSize="15sp"
         android:layout_below="@id/CantidadG"
@@ -142,8 +142,55 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/IngresoG"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="80dp"
         android:orientation="horizontal">
+        <Button
+            android:id="@+id/subirA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subir Comprobante"
+            android:gravity="center"
+            android:layout_below="@id/cuadroD"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/nicomoji"
+            android:textColor="#7F36AB"
+            android:backgroundTint="#190923"
+            android:layout_marginRight="20dp"/>
+        <ImageButton
+            android:id="@+id/bottonUp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/ic_actualizar">
 
+        </ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginRight="330dp"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/bottonU"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="25dp"
+            android:background="@mipmap/ic_usuario">
+
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/bottonA"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/bottonU"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/ic_ajustes">
+
+        </ImageButton>
     </LinearLayout>
 </RelativeLayout>
