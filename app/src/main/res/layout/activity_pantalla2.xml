@@ -125,27 +125,24 @@ android:layout_below="@id/registerButton"
 android:layout_centerHorizontal="true"
 android:layout_marginTop="110dp"
 android:orientation="horizontal">
-
-<ImageView
+<ImageButton
+    android:layout_width="40dp"
+    android:layout_height="40dp"
     android:id="@+id/whatsappIcon"
-    android:layout_width="40dp"
-    android:layout_height="40dp"
-    android:src="@drawable/ic_whatsap"
-    android:layout_marginRight="20dp"/>
-
-<ImageView
-    android:id="@+id/githubIcon"
-    android:layout_width="40dp"
-    android:layout_height="40dp"
-    android:src="@drawable/ic_github"
-    android:layout_marginRight="20dp"/>
-
-<ImageView
-    android:id="@+id/twitterIcon"
-    android:layout_width="40dp"
-    android:layout_height="40dp"
-    android:src="@drawable/ic_twiter"
-    android:layout_marginRight="20dp"/>
+    android:layout_marginRight="20dp"
+    android:background="@drawable/ic_whatsap"/>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/githubIcon"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_github"/>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/twitterIcon"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_twiter"/>
 </LinearLayout>
 
 <TextView

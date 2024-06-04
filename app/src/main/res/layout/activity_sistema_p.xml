@@ -42,25 +42,27 @@
 
     <Button
         android:id="@+id/GastoB"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ingrese Gasto"
         android:gravity="center"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
+        android:layout_marginLeft="200dp"
         android:fontFamily="@font/nicomoji"
         android:textColor="#7F36AB"
         android:backgroundTint="#190923"/>
 
     <Button
         android:id="@+id/IngresoI"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ingrese Adicional"
         android:gravity="center"
         android:layout_below="@id/GastoB"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
+        android:layout_marginLeft="200dp"
         android:fontFamily="@font/nicomoji"
         android:textColor="#7F36AB"
         android:backgroundTint="#190923"/>
@@ -68,13 +70,14 @@
 
     <Button
         android:id="@+id/estadoC"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Estado"
         android:gravity="center"
         android:layout_below="@id/IngresoI"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
+        android:layout_marginLeft="200dp"
         android:fontFamily="@font/nicomoji"
         android:textColor="#7F36AB"
         android:backgroundTint="#190923"/>

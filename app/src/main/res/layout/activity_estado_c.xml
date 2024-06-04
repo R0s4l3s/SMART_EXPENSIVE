@@ -6,4 +6,66 @@
     android:id="@+id/main"
     android:background="@drawable/backgraund"
     tools:context=".EstadoC">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/nicomoji"
+        android:text="Bienvenido a tu estado"
+        android:textColor="#9530C5"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/welcomeText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/welcomeText"
+        android:fontFamily="@font/nicomoji"
+        android:text="de cuenta MrNightmare"
+        android:textColor="#9530C5"
+        android:textSize="22sp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/balanceu"
+        android:layout_below="@+id/welcomeText2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/balancei"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/balancei"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ingresosu"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/gastosu"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/siguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro"
+        android:gravity="center"
+        android:layout_below="@id/balancei"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="@font/nicomoji"
+        android:textColor="#7F36AB"
+        android:backgroundTint="#190923"/>
+
+
 </RelativeLayout>

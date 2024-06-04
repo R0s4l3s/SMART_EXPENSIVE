@@ -58,7 +58,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/nicomoji"/>
-    <!-- Apellidos EditText -->
+
     <EditText
         android:id="@+id/CantidadG"
         android:layout_width="match_parent"
