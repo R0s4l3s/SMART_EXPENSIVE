@@ -1,0 +1,1 @@
+Buenos dias estimados usuarios de la red, hoy les presentamos un proyecto en desarrollo por mi persona Rosales Carlos. Aun esta en versiones betas e ira progresando poco a poco. Agradecerles el poder ver el codigo fuente para poder recibir criticas que ayuden a progresar el aplicativo. Muchas grcias por leerme.
