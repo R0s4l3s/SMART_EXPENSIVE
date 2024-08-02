@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema claro -->
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Personaliza tu tema aquí -->
+        <item name="colorPrimary">#7F36AB</item>
+        <item name="colorPrimaryDark">#7F36AB</item>
+        <item name="colorAccent">#7F36AB</item>
+    </style>
+
+    <!-- Tema oscuro -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <!-- Personaliza tu tema aquí -->
+        <item name="colorPrimary">#190923</item>
+        <item name="colorPrimaryDark">#190923</item>
+        <item name="colorAccent">#190923</item>
+    </style>
+
+</resources>
